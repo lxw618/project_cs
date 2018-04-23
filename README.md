@@ -1,2 +1,2 @@
 # 小项目
-Project for test.
+个人C#小项目。
