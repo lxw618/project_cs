@@ -1,0 +1,10 @@
+H:\项目\家用记账管理系统\AccountSystem\AccountSystem\bin\Debug\AccountSystem.exe.config
+H:\项目\家用记账管理系统\AccountSystem\AccountSystem\bin\Debug\AccountSystem.exe
+H:\项目\家用记账管理系统\AccountSystem\AccountSystem\bin\Debug\AccountSystem.pdb
+H:\项目\家用记账管理系统\AccountSystem\AccountSystem\obj\Debug\AccountSystem.csprojResolveAssemblyReference.cache
+H:\项目\家用记账管理系统\AccountSystem\AccountSystem\obj\Debug\AccountSystem.Properties.Resources.resources
+H:\项目\家用记账管理系统\AccountSystem\AccountSystem\obj\Debug\AccountSystem.csproj.GenerateResource.Cache
+H:\项目\家用记账管理系统\AccountSystem\AccountSystem\obj\Debug\AccountSystem.exe
+H:\项目\家用记账管理系统\AccountSystem\AccountSystem\obj\Debug\AccountSystem.pdb
+H:\项目\家用记账管理系统\AccountSystem\AccountSystem\obj\Debug\AccountSystem.Loading.resources
+H:\项目\家用记账管理系统\AccountSystem\AccountSystem\obj\Debug\AccountSystem.MainForm.resources
