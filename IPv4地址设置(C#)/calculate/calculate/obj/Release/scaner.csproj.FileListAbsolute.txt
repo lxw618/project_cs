@@ -1,0 +1,12 @@
+G:\程序技术\端口扫描(C#)\calculate\calculate\bin\Release\scaner.exe.config
+G:\程序技术\端口扫描(C#)\calculate\calculate\obj\Release\scaner.exe
+G:\程序技术\端口扫描(C#)\calculate\calculate\obj\Release\scaner.pdb
+G:\程序技术\端口扫描(C#)\calculate\calculate\bin\Release\scaner.exe
+G:\程序技术\端口扫描(C#)\calculate\calculate\bin\Release\scaner.pdb
+G:\程序技术\端口扫描(C#)\calculate\calculate\obj\Release\calculate.calc.resources
+G:\程序技术\端口扫描(C#)\calculate\calculate\obj\Release\scaner.Properties.Resources.resources
+G:\程序技术\端口扫描(C#)\calculate\calculate\obj\Release\scaner.csproj.GenerateResource.Cache
+G:\程序技术\端口扫描(C#)\calculate\calculate\obj\Release\scaner.csprojResolveAssemblyReference.cache
+G:\程序技术\IPv4地址设置(C#)\calculate\calculate\bin\Release\scaner.exe.config
+G:\程序技术\IPv4地址设置(C#)\calculate\calculate\obj\Release\scaner.exe
+G:\程序技术\IPv4地址设置(C#)\calculate\calculate\obj\Release\scaner.pdb
