@@ -1,0 +1,308 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{EF76F126-6850-480E-BA03-B3D1E9E663FA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AccountingSystem</RootNamespace>
+    <AssemblyName>AccountingSystem</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>图标.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AddRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddRecord.Designer.cs">
+      <DependentUpon>AddRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AddUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddUser.Designer.cs">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calculator.Designer.cs">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Calendar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Calendar.Designer.cs">
+      <DependentUpon>Calendar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangePassword.Designer.cs">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeRecord.Designer.cs">
+      <DependentUpon>ChangeRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ChangeUserInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChangeUserInformation.Designer.cs">
+      <DependentUpon>ChangeUserInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteRecord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteRecord.Designer.cs">
+      <DependentUpon>DeleteRecord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DeleteUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DeleteUser.Designer.cs">
+      <DependentUpon>DeleteUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EveryDayCase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EveryDayCase.Designer.cs">
+      <DependentUpon>EveryDayCase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EveryMonthCase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EveryMonthCase.Designer.cs">
+      <DependentUpon>EveryMonthCase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="EveryYearCase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EveryYearCase.Designer.cs">
+      <DependentUpon>EveryYearCase.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExchangeRate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExchangeRate.Designer.cs">
+      <DependentUpon>ExchangeRate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ExchangeRateSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ExchangeRateSet.Designer.cs">
+      <DependentUpon>ExchangeRateSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogOn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogOn.Designer.cs">
+      <DependentUpon>frmLogOn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="ProgramAbout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramAbout.Designer.cs">
+      <DependentUpon>ProgramAbout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ProgramSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ProgramSet.Designer.cs">
+      <DependentUpon>ProgramSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="SendEmail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SendEmail.Designer.cs">
+      <DependentUpon>SendEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SendEmailSet.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SendEmailSet.Designer.cs">
+      <DependentUpon>SendEmailSet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetConnect.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetConnect.Designer.cs">
+      <DependentUpon>SetConnect.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TypeAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TypeAdmin.Designer.cs">
+      <DependentUpon>TypeAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TypeCase.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TypeCase.Designer.cs">
+      <DependentUpon>TypeCase.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddRecord.resx">
+      <DependentUpon>AddRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddUser.resx">
+      <DependentUpon>AddUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calculator.resx">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Calendar.resx">
+      <DependentUpon>Calendar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangePassword.resx">
+      <DependentUpon>ChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeRecord.resx">
+      <DependentUpon>ChangeRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ChangeUserInformation.resx">
+      <DependentUpon>ChangeUserInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteRecord.resx">
+      <DependentUpon>DeleteRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DeleteUser.resx">
+      <DependentUpon>DeleteUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EveryDayCase.resx">
+      <DependentUpon>EveryDayCase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EveryMonthCase.resx">
+      <DependentUpon>EveryMonthCase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EveryYearCase.resx">
+      <DependentUpon>EveryYearCase.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExchangeRate.resx">
+      <DependentUpon>ExchangeRate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ExchangeRateSet.resx">
+      <DependentUpon>ExchangeRateSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogOn.resx">
+      <DependentUpon>frmLogOn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramAbout.resx">
+      <DependentUpon>ProgramAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ProgramSet.resx">
+      <DependentUpon>ProgramSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SendEmail.resx">
+      <DependentUpon>SendEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SendEmailSet.resx">
+      <DependentUpon>SendEmailSet.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetConnect.resx">
+      <DependentUpon>SetConnect.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TypeAdmin.resx">
+      <DependentUpon>TypeAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TypeCase.resx">
+      <DependentUpon>TypeCase.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainBackImage.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Close1.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\switchuser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainBackground1.jpg" />
+    <None Include="Resources\MainBackground2.jpg" />
+    <Content Include="图标.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

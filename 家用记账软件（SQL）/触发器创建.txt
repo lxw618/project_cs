@@ -1,0 +1,8 @@
+Create TRIGGER trigUserDelete
+On [User] FOR DELETE
+as
+Begin
+declare @Sname nVARCHAR(50)
+select @Sname=deleted.username from deleted
+delete from [Account] where username=@Sname
+end
