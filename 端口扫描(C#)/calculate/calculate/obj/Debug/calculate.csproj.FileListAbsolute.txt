@@ -1,0 +1,9 @@
+H:\项目\计算器(C#)\calculate\calculate\bin\Debug\calculate.exe.config
+H:\项目\计算器(C#)\calculate\calculate\bin\Debug\calculate.exe
+H:\项目\计算器(C#)\calculate\calculate\bin\Debug\calculate.pdb
+H:\项目\计算器(C#)\calculate\calculate\obj\Debug\calculate.calc.resources
+H:\项目\计算器(C#)\calculate\calculate\obj\Debug\calculate.Properties.Resources.resources
+H:\项目\计算器(C#)\calculate\calculate\obj\Debug\calculate.csproj.GenerateResource.Cache
+H:\项目\计算器(C#)\calculate\calculate\obj\Debug\calculate.exe
+H:\项目\计算器(C#)\calculate\calculate\obj\Debug\calculate.pdb
+H:\项目\计算器(C#)\calculate\calculate\obj\Debug\calculate.csprojResolveAssemblyReference.cache
