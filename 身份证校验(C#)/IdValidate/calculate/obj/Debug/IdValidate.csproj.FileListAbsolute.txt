@@ -1,0 +1,9 @@
+G:\程序技术\身份证校验(C#)\IdValidate\calculate\bin\Debug\calculate.exe.config
+G:\程序技术\身份证校验(C#)\IdValidate\calculate\bin\Debug\calculate.exe
+G:\程序技术\身份证校验(C#)\IdValidate\calculate\bin\Debug\calculate.pdb
+G:\程序技术\身份证校验(C#)\IdValidate\calculate\obj\Debug\IdValidate.csprojResolveAssemblyReference.cache
+G:\程序技术\身份证校验(C#)\IdValidate\calculate\obj\Debug\calculate.IdValidate.resources
+G:\程序技术\身份证校验(C#)\IdValidate\calculate\obj\Debug\calculate.Properties.Resources.resources
+G:\程序技术\身份证校验(C#)\IdValidate\calculate\obj\Debug\IdValidate.csproj.GenerateResource.Cache
+G:\程序技术\身份证校验(C#)\IdValidate\calculate\obj\Debug\calculate.exe
+G:\程序技术\身份证校验(C#)\IdValidate\calculate\obj\Debug\calculate.pdb
